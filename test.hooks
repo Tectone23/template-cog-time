@@ -1,9 +1,9 @@
 hook:      
-  namespace: "files"
+  namespace: "test"
   source_path: "src/"
   depends: []
   actions:
-      read_files:
-        "read_files"
+      hello:
+        "hello"
 config:
   example_api_url: ""
